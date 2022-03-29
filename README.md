@@ -608,9 +608,15 @@ You can still go further and use `revive` without its cli, as part of your libra
 package mylib
 
 import (
+<<<<<<< HEAD
 	"github.com/deepsourcelabs/revive/cli"
 	"github.com/deepsourcelabs/revive/revivelib"
 	"github.com/deepsourcelabs/revive/lint"
+=======
+	"github.com/mgechev/revive/cli"
+	"github.com/mgechev/revive/revivelib"
+	"github.com/mgechev/revive/lint"
+>>>>>>> 318db94 (Separating lib from cli (#655))
 )
 
 // Error checking removed for clarity
@@ -622,7 +628,11 @@ func LintMyFile(file string) {
 		true,  // Set exit status
 		2048,  // Max open files
 
+<<<<<<< HEAD
 		// Then add as many extra rules as you need
+=======
+        // Then add as many extra rules as you need
+>>>>>>> 318db94 (Separating lib from cli (#655))
 		revivelib.NewExtraRule(&myRule{}, lint.RuleConfig{}),
 	)
 
@@ -754,6 +764,12 @@ REVIVE_FORCE_COLOR=1 revive -formatter friendly ./... | tee revive.log
 [<img alt="cce" src="https://avatars.githubusercontent.com/u/51567?v=4&s=117" width="117">](https://github.com/cce) |[<img alt="haya14busa" src="https://avatars.githubusercontent.com/u/3797062?v=4&s=117" width="117">](https://github.com/haya14busa) |[<img alt="jmckenzieark" src="https://avatars.githubusercontent.com/u/70923399?v=4&s=117" width="117">](https://github.com/jmckenzieark) |[<img alt="techknowlogick" src="https://avatars.githubusercontent.com/u/164197?v=4&s=117" width="117">](https://github.com/techknowlogick) |[<img alt="zeripath" src="https://avatars.githubusercontent.com/u/1824502?v=4&s=117" width="117">](https://github.com/zeripath) |
 :---: |:---: |:---: |:---: |:---: |
 [cce](https://github.com/cce) |[haya14busa](https://github.com/haya14busa) |[jmckenzieark](https://github.com/jmckenzieark) |[techknowlogick](https://github.com/techknowlogick) |[zeripath](https://github.com/zeripath) |
+
+
+[<img alt="heynemann" src="https://avatars.githubusercontent.com/u/60965?v=4&s=117" width="117">](https://github.com/heynemann) | | | | | |
+|:---: |:---: |:---: |:---: |:---: |:---: |
+[heynemann](https://github.com/heynemann) | | | | | |
+
 
 ## License
 
