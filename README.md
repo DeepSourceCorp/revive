@@ -608,15 +608,9 @@ You can still go further and use `revive` without its cli, as part of your libra
 package mylib
 
 import (
-<<<<<<< HEAD
 	"github.com/deepsourcelabs/revive/cli"
 	"github.com/deepsourcelabs/revive/revivelib"
 	"github.com/deepsourcelabs/revive/lint"
-=======
-	"github.com/mgechev/revive/cli"
-	"github.com/mgechev/revive/revivelib"
-	"github.com/mgechev/revive/lint"
->>>>>>> 318db94 (Separating lib from cli (#655))
 )
 
 // Error checking removed for clarity
@@ -628,11 +622,7 @@ func LintMyFile(file string) {
 		true,  // Set exit status
 		2048,  // Max open files
 
-<<<<<<< HEAD
 		// Then add as many extra rules as you need
-=======
-        // Then add as many extra rules as you need
->>>>>>> 318db94 (Separating lib from cli (#655))
 		revivelib.NewExtraRule(&myRule{}, lint.RuleConfig{}),
 	)
 
@@ -765,11 +755,17 @@ REVIVE_FORCE_COLOR=1 revive -formatter friendly ./... | tee revive.log
 :---: |:---: |:---: |:---: |:---: |
 [cce](https://github.com/cce) |[haya14busa](https://github.com/haya14busa) |[jmckenzieark](https://github.com/jmckenzieark) |[techknowlogick](https://github.com/techknowlogick) |[zeripath](https://github.com/zeripath) |
 
+[<img alt="ldez" src="https://avatars.githubusercontent.com/u/5674651?v=4&s=117" width="117">](https://github.com/ldez) |[<img alt="mathieu-aubin" src="https://avatars.githubusercontent.com/u/15820228?v=4&s=117" width="117">](https://github.com/mathieu-aubin) |[<img alt="michalhisim" src="https://avatars.githubusercontent.com/u/764249?v=4&s=117" width="117">](https://github.com/michalhisim) |[<img alt="pa-m" src="https://avatars.githubusercontent.com/u/5503106?v=4&s=117" width="117">](https://github.com/pa-m) |[<img alt="paul-at-start" src="https://avatars.githubusercontent.com/u/5486775?v=4&s=117" width="117">](https://github.com/paul-at-start) |[<img alt="weastur" src="https://avatars.githubusercontent.com/u/10865586?v=4&s=117" width="117">](https://github.com/weastur) |
+:---: |:---: |:---: |:---: |:---: |:---: |
+[ldez](https://github.com/ldez) |[mathieu-aubin](https://github.com/mathieu-aubin) |[michalhisim](https://github.com/michalhisim) |[pa-m](https://github.com/pa-m) |[paul-at-start](https://github.com/paul-at-start) |[weastur](https://github.com/weastur) |
 
-[<img alt="heynemann" src="https://avatars.githubusercontent.com/u/60965?v=4&s=117" width="117">](https://github.com/heynemann) | | | | | |
-|:---: |:---: |:---: |:---: |:---: |:---: |
-[heynemann](https://github.com/heynemann) | | | | | |
+[<img alt="paco0x" src="https://avatars.githubusercontent.com/u/6123425?v=4&s=117" width="117">](https://github.com/paco0x) |[<img alt="rdeusser" src="https://avatars.githubusercontent.com/u/5935071?v=4&s=117" width="117">](https://github.com/rdeusser) |[<img alt="ridvansumset" src="https://avatars.githubusercontent.com/u/26631560?v=4&s=117" width="117">](https://github.com/ridvansumset) |[<img alt="tartale" src="https://avatars.githubusercontent.com/u/9323250?v=4&s=117" width="117">](https://github.com/tartale) |[<img alt="Jarema" src="https://avatars.githubusercontent.com/u/7369771?v=4&s=117" width="117">](https://github.com/Jarema) |[<img alt="vkrol" src="https://avatars.githubusercontent.com/u/153412?v=4&s=117" width="117">](https://github.com/vkrol) |
+:---: |:---: |:---: |:---: |:---: |:---: |
+[paco0x](https://github.com/paco0x) |[rdeusser](https://github.com/rdeusser) |[ridvansumset](https://github.com/ridvansumset) |[tartale](https://github.com/tartale) |[Jarema](https://github.com/Jarema) |[vkrol](https://github.com/vkrol) |
 
+[<img alt="cce" src="https://avatars.githubusercontent.com/u/51567?v=4&s=117" width="117">](https://github.com/cce) |[<img alt="haya14busa" src="https://avatars.githubusercontent.com/u/3797062?v=4&s=117" width="117">](https://github.com/haya14busa) |[<img alt="jmckenzieark" src="https://avatars.githubusercontent.com/u/70923399?v=4&s=117" width="117">](https://github.com/jmckenzieark) |[<img alt="techknowlogick" src="https://avatars.githubusercontent.com/u/164197?v=4&s=117" width="117">](https://github.com/techknowlogick) |[<img alt="zeripath" src="https://avatars.githubusercontent.com/u/1824502?v=4&s=117" width="117">](https://github.com/zeripath) |
+:---: |:---: |:---: |:---: |:---: |
+[cce](https://github.com/cce) |[haya14busa](https://github.com/haya14busa) |[jmckenzieark](https://github.com/jmckenzieark) |[techknowlogick](https://github.com/techknowlogick) |[zeripath](https://github.com/zeripath) |
 
 ## License
 
