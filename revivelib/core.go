@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
+	"github.com/deepsourcelabs/revive/config"
+	"github.com/deepsourcelabs/revive/lint"
+	"github.com/deepsourcelabs/revive/logging"
 	"github.com/mgechev/dots"
-	"github.com/mgechev/revive/config"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/logging"
 	"github.com/pkg/errors"
 )
 

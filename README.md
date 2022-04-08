@@ -584,9 +584,9 @@ The full rule set of `revive` is also actionable by your application.
 package main
 
 import (
-	"github.com/mgechev/revive/cli"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/revivelib"
+	"github.com/deepsourcelabs/revive/cli"
+	"github.com/deepsourcelabs/revive/lint"
+	"github.com/deepsourcelabs/revive/revivelib"
 )
 
 func main() {
@@ -608,9 +608,9 @@ You can still go further and use `revive` without its cli, as part of your libra
 package mylib
 
 import (
-	"github.com/mgechev/revive/cli"
-	"github.com/mgechev/revive/revivelib"
-	"github.com/mgechev/revive/lint"
+	"github.com/deepsourcelabs/revive/cli"
+	"github.com/deepsourcelabs/revive/revivelib"
+	"github.com/deepsourcelabs/revive/lint"
 )
 
 // Error checking removed for clarity
