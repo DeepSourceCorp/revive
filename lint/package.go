@@ -9,6 +9,8 @@ import (
 	"sync"
 
 	"golang.org/x/tools/go/gcexportdata"
+
+	"github.com/mgechev/revive/internal/typeparams"
 )
 
 // Package represents a package in the project.
@@ -148,7 +150,7 @@ func (w *walker) Visit(n ast.Node) ast.Visitor {
 		return w
 	}
 	// TODO(dsymonds): We could check the signature to be more precise.
-	recv := receiverType(fn)
+	recv := typeparams.ReceiverType(fn)
 	if i, ok := w.nmap[fn.Name.Name]; ok {
 		w.has[recv] |= i
 	}
