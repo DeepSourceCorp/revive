@@ -8,10 +8,11 @@ require (
 	github.com/fatih/color v1.13.0
 	github.com/fatih/structtag v1.2.0
 	github.com/mgechev/dots v0.0.0-20210922191527-e955255bf517
+	github.com/mgechev/revive v1.2.1
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/pkg/errors v0.9.1
-	golang.org/x/tools v0.1.10
+	golang.org/x/tools v0.1.11
 )
 
 require (
