@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mgechev/revive/config"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/revivelib"
+	"github.com/deepsourcelabs/revive/config"
+	"github.com/deepsourcelabs/revive/lint"
+	"github.com/deepsourcelabs/revive/revivelib"
 )
 
 func TestReviveLint(t *testing.T) {

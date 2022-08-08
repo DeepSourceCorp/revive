@@ -9,7 +9,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/mgechev/revive/internal/typeparams"
+	"github.com/deepsourcelabs/revive/internal/typeparams"
 )
 
 // Package represents a package in the project.
