@@ -1,10 +1,12 @@
 package lint
 
 import (
+	"fmt"
 	"go/ast"
 	"go/importer"
 	"go/token"
 	"go/types"
+	"os"
 	"sync"
 
 	"github.com/mgechev/revive/internal/typeparams"
@@ -182,8 +184,16 @@ func (p *Package) lint(rules []Rule, config Config, failures chan Failure) {
 	for _, file := range p.files {
 		wg.Add(1)
 		go (func(file *File) {
+			// As recover can be done from the same goroutine where the panic
+			// occurs, handling it here. It is done to capture the panics in
+			// revive's multiple rules.
+			defer func() {
+				if r := recover(); r != nil {
+					fmt.Fprintln(os.Stderr, "revive: goroutine panicked:", r)
+				}
+				wg.Done()
+			}()
 			file.lint(rules, config, failures)
-			defer wg.Done()
 		})(file)
 	}
 	wg.Wait()
