@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mgechev/revive/cli"
+import "github.com/deepsourcelabs/revive/cli"
 
 func main() {
 	cli.RunRevive()
