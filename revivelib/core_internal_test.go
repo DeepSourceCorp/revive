@@ -3,8 +3,8 @@ package revivelib
 import (
 	"testing"
 
-	"github.com/deepsourcelabs/revive/config"
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/config"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 func TestReviveCreateInstance(t *testing.T) {

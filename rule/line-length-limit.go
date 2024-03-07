@@ -9,7 +9,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // LineLengthLimitRule lints given else constructs.

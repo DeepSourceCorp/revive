@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/deepsourcelabs/revive/formatter"
+	"github.com/DeepSourceCorp/revive/formatter"
 
 	"github.com/BurntSushi/toml"
-	"github.com/deepsourcelabs/revive/lint"
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 var defaultRules = []lint.Rule{

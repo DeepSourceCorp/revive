@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // isBlank returns whether id is the blank identifier "_".

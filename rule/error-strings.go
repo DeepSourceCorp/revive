@@ -9,7 +9,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ErrorStringsRule lints given else constructs.

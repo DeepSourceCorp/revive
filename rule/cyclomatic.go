@@ -6,7 +6,7 @@ import (
 	"go/token"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // Based on https://github.com/fzipp/gocyclo

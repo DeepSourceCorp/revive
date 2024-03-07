@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ImportsBlacklistRule lints given else constructs.

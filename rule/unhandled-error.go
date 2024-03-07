@@ -6,7 +6,7 @@ import (
 	"go/types"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // UnhandledErrorRule lints given else constructs.

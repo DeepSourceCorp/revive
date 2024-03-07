@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 // TestStructTag tests struct-tag rule

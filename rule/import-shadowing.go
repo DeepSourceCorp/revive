@@ -6,7 +6,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ImportShadowingRule lints given else constructs.

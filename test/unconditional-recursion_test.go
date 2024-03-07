@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 func TestUnconditionalRecursion(t *testing.T) {

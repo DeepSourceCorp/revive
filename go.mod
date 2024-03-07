@@ -1,4 +1,4 @@
-module github.com/deepsourcelabs/revive
+module github.com/DeepSourceCorp/revive
 
 go 1.17
 

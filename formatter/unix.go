@@ -3,12 +3,13 @@ package formatter
 import (
 	"fmt"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // Unix is an implementation of the Formatter interface
 // which formats the errors to a simple line based error format
-//  main.go:24:9: [errorf] should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
+//
+//	main.go:24:9: [errorf] should replace errors.New(fmt.Sprintf(...)) with fmt.Errorf(...)
 type Unix struct {
 	Metadata lint.FormatterMetadata
 }

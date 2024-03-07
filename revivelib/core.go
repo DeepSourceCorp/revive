@@ -5,9 +5,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/config"
-	"github.com/deepsourcelabs/revive/lint"
-	"github.com/deepsourcelabs/revive/logging"
+	"github.com/DeepSourceCorp/revive/config"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/logging"
 	"github.com/mgechev/dots"
 	"github.com/pkg/errors"
 )

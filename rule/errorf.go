@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ErrorfRule lints given else constructs.

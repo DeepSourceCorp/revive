@@ -8,8 +8,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/config"
-	"github.com/deepsourcelabs/revive/revivelib"
+	"github.com/DeepSourceCorp/revive/config"
+	"github.com/DeepSourceCorp/revive/revivelib"
 	"github.com/fatih/color"
 	"github.com/mitchellh/go-homedir"
 )

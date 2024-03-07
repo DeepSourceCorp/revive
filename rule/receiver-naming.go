@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"go/ast"
 
-	"github.com/deepsourcelabs/revive/internal/typeparams"
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ReceiverNamingRule lints given else constructs.

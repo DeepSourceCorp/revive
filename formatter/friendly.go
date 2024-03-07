@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
 )

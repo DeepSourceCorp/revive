@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/deepsourcelabs/revive/lint"
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 var lintMatch = flag.String("lint.match", "", "restrict fixtures matches to this pattern")

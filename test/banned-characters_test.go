@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/deepsourcelabs/revive/lint"
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 // Test banned characters in a const, var and func names.

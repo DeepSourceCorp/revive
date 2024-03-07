@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 	"github.com/pkg/errors"
 )
 

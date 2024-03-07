@@ -3,7 +3,7 @@ package rule
 import (
 	"go/ast"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // BareReturnRule lints given else constructs.

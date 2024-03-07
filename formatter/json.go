@@ -3,7 +3,7 @@ package formatter
 import (
 	"encoding/json"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // JSON is an implementation of the Formatter interface

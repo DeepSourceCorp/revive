@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 	"github.com/fatih/structtag"
 )
 

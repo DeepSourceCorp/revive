@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // FileHeaderRule lints given else constructs.
