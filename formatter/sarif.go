@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/DeepSourceCorp/revive/lint"
 	"github.com/chavacava/garif"
-	"github.com/deepsourcelabs/revive/lint"
 )
 
 // Sarif is an implementation of the Formatter interface

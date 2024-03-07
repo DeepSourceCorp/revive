@@ -5,8 +5,8 @@ import (
 	"go/ast"
 	"go/types"
 
-	"github.com/deepsourcelabs/revive/internal/typeparams"
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // UnexportedReturnRule lints given else constructs.

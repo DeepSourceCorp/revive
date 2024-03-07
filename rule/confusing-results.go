@@ -3,7 +3,7 @@ package rule
 import (
 	"go/ast"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ConfusingResultsRule lints given function declarations

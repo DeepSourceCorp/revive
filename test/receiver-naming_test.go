@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/deepsourcelabs/revive/internal/typeparams"
-	"github.com/deepsourcelabs/revive/rule"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 func TestReceiverNamingTypeParams(t *testing.T) {

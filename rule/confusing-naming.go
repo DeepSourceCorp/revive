@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 type referenceMethod struct {

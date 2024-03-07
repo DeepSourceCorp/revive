@@ -5,7 +5,7 @@ import (
 	"encoding/xml"
 	plainTemplate "text/template"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // Checkstyle is an implementation of the Formatter interface

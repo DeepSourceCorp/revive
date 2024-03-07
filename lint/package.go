@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/tools/go/gcexportdata"
 
-	"github.com/deepsourcelabs/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
 )
 
 // Package represents a package in the project.

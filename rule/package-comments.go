@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/deepsourcelabs/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // PackageCommentsRule lints the package comments. It complains if
