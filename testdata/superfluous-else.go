@@ -14,7 +14,7 @@ func FP_DeepSource(a []byte) {
 		if b, err := os.ReadFile(""); err != nil {
 			// not a valid date/time
 			continue
-		} else {
+		} else { // MATCH /if block ends with a continue statement, so drop this else and outdent its block (move short variable declaration to its own line if necessary)/
 			a = b
 			b = a
 		}
