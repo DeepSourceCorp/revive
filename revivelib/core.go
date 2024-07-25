@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/DeepSourceCorp/revive/config"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/logging"
 	"github.com/mgechev/dots"
-	"github.com/mgechev/revive/config"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/logging"
 	"github.com/pkg/errors"
 )
 

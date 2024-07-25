@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // CommentsDensityRule lints given else constructs.

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 func f0(param int) {

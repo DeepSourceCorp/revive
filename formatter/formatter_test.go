@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mgechev/revive/formatter"
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/formatter"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 func TestFormatter(t *testing.T) {

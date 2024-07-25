@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // UnusedReceiverRule lints unused params in functions.

@@ -9,7 +9,7 @@ import (
 
 	goversion "github.com/hashicorp/go-version"
 
-	"github.com/mgechev/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
 )
 
 // Package represents a package in the project.

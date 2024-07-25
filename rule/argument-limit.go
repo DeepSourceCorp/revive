@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"sync"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ArgumentsLimitRule lints given else constructs.

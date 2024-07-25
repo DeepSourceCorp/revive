@@ -9,8 +9,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/mgechev/revive/internal/typeparams"
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/internal/typeparams"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ExportedRule lints given else constructs.

@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/rule"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 // TestCallToGC test call-to-gc rule

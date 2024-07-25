@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/rule"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 // String-of-int rule.

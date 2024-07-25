@@ -6,8 +6,8 @@ import (
 	"io"
 	"sort"
 
+	"github.com/DeepSourceCorp/revive/lint"
 	"github.com/fatih/color"
-	"github.com/mgechev/revive/lint"
 	"github.com/olekukonko/tablewriter"
 )
 

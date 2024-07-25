@@ -3,7 +3,7 @@ package rule
 import (
 	"fmt"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // DuplicatedImportsRule lints given else constructs.

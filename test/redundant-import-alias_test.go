@@ -1,8 +1,9 @@
 package test
 
 import (
-	"github.com/mgechev/revive/rule"
 	"testing"
+
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 // TestRedundantImportAlias rule.

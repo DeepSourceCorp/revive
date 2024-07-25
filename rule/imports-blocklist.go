@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // ImportsBlocklistRule lints given else constructs.

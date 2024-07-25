@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 type TestFileFilterRule struct {

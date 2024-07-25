@@ -3,8 +3,8 @@ package rule
 import (
 	"fmt"
 
-	"github.com/mgechev/revive/internal/ifelse"
-	"github.com/mgechev/revive/lint"
+	"github.com/DeepSourceCorp/revive/internal/ifelse"
+	"github.com/DeepSourceCorp/revive/lint"
 )
 
 // EarlyReturnRule finds opportunities to reduce nesting by inverting

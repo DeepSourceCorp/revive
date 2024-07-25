@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/DeepSourceCorp/revive/config"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/revivelib"
+	"github.com/DeepSourceCorp/revive/rule"
 	"github.com/fatih/color"
-	"github.com/mgechev/revive/config"
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/revivelib"
-	"github.com/mgechev/revive/rule"
 )
 
 func TestReviveLint(t *testing.T) {

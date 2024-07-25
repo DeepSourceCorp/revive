@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/mgechev/revive/lint"
-	"github.com/mgechev/revive/rule"
+	"github.com/DeepSourceCorp/revive/lint"
+	"github.com/DeepSourceCorp/revive/rule"
 )
 
 func TestStringFormat(t *testing.T) {
